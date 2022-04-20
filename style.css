@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Roboto, "sans-serif";
+}
+/* header */
+
+.header {
+    background-color: #1F2937;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-list {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* top blue portion */
+
+.top {
+    background-color: #1F2937;
+    border: 16px;
+    padding-top: 16px;
+    display: flex;
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.coffee-heart {
+    max-width: 300px;
+    max-height: auto;
+    display: flex;
+}
+img {
+    max-width: 100%;
+    display: flex;
+}
+
+/* universal */
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+
+}
+
+a, li {
+    text-decoration: none;
+    color: #e5e7eb;
+}
