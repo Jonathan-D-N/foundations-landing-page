@@ -34,7 +34,7 @@ body {
 .context-text {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    align-content: center;
 }
 
 .big-text {
@@ -43,34 +43,35 @@ body {
     color: #f9faf8;
     margin: 0;
     display: flex;
-
+    flex: 1;
 }
 
 .small-text {
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+    flex: 1;
 }
 
 .button-1 {
-
+    max-width: 100px;
+    justify-content: center;
+    display: flex;
+    flex-shrink: 1;
 }
 
 .header-image  {
     display: flex;
     justify-content: right;
-    flex: 1.5;
+    flex: 1;
+
 }
 
 
 
 
-
-
-
-
-
 .img-1 {
-    max-width: 100%;
+    max-width: 500px;
     max-height: auto;
 }
 
