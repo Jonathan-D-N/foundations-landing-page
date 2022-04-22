@@ -3,9 +3,16 @@
     box-sizing: border-box;
 }
 
+.body {
+    
+}
+
 .header {
     background-color: #1f2937;
-    padding: 0 0;
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+
 }
 
 .header-container {
