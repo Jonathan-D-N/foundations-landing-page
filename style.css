@@ -1,84 +1,37 @@
-body {
-    margin: 0;
+* {
+    border: 2px solid red;
 }
 
-.top {
-    background-color: #1f2937;
-    padding: 16px 96px;
-
-/* header */
-}
-.header {
+.header-container {
     display: flex;
-    margin-bottom: 48px;
+    justify-content: space-between;
+    background-color: #1f2937;
 }
 
 .logo {
     display: flex;
-    flex: 1;
     align-items: center;
+    flex: 1;
+    font-size: 18px;
+    font-weight: 900;
+    color: #f9faf8;
 }
 
 .header-links {
     display: flex;
-    justify-content: space-between;
-    justify-content: right;
-    flex: 1;
-}
-
-/* top blue part */
-.header-context {
-    display: flex;
-}
-
-.context-text {
-    display: flex;
     flex-direction: column;
-    align-content: center;
-}
-
-.big-text {
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
-    margin: 0;
-    display: flex;
     flex: 1;
-}
-
-.small-text {
-    font-size: 18px;
-    color: #e5e7eb;
-    display: flex;
-    flex: 1;
-}
-
-.button-1 {
-    max-width: 100px;
-    justify-content: center;
-    display: flex;
-    flex-shrink: 1;
-}
-
-.header-image  {
-    display: flex;
-    justify-content: right;
-    flex: 1;
-
-}
-
-
-
-
-.img-1 {
-    max-width: 500px;
-    max-height: auto;
+    align-items: flex-end;
+    
 }
 
 .ul-header {
+    padding-left: 0;
+    gap: 16px;
+    font-size: 14px;
     list-style: none;
     display: flex;
-    gap: 16px;
+    
 }
 
 a {
