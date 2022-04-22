@@ -3,6 +3,21 @@
     box-sizing: border-box;
 }
 
+    border: 1px solid;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: #1f2937;
+    padding: 16px 250px
+
+
+/* header */
+}
 .header {
     background-color: #1f2937;
     padding: 0 0;
@@ -31,64 +46,60 @@
     
 }
 
+    /* top blue part */
+    .top-container {
+        display: flex;
+    }
+
+    .top-text {
+        max-width: ;
+        display: flex;
+        flex-direction: column;
+        align-content: right;
+    }
+
+    .big-text {
+        font-size: 48px;
+        font-weight: 900;
+        color: #f9faf8;
+        margin: 0;
+        display: flex;
+        flex: 1;
+    }
+
+    .small-text {
+        font-size: 18px;
+        color: #e5e7eb;
+        display: flex;
+        flex: 1;
+    }
+
+    .button-1 {
+        max-width: 100px;
+        justify-content: center;
+        display: flex;
+        flex-shrink: 1;
+    }
+
+    .header-image  {
+        display: flex;
+        justify-content: right;
+        flex: 1;
+
+    }
+
+
+
+/* universal */
+.img-1 {
+    max-width: 500px;
+    max-height: auto;
+}
+
 .ul-header {
-    padding-left: 0;
-    gap: 16px;
-    font-size: 14px;
     list-style: none;
     display: flex;
-    
-}
-/* end of header */
-        /* attempt to make 4 even divs for the body of the page, in a column */
-        .body {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .header-content {
-            background-color: #1f2937;
-            display: flex;
-            flex: 1;
-        }
-
-        .upper-middle {
-            display: flex;
-            flex: 1;
-        }
-
-        .middle {
-            display: flex;
-            flex: 1;
-        }
-
-        .lower-middle {
-            display: flex;
-            flex: 1;
-        }
-
-/* .content-text {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.big-text {
-    font-size: 48px;
-    color: #f9faf8;
-    flex: 1;
-}
-
-.small-text {
-    flex: 1;
-}
-
-.header-image {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    background-color: #6d747d;
+    gap: 16px;
 }
 
 /* universal */
