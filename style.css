@@ -5,12 +5,12 @@
 
 .header {
     background-color: #1f2937;
-    padding: 0 200px;
+    padding: 0 0;
 }
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #1f2937;
 }
 
@@ -39,18 +39,35 @@
     display: flex;
     
 }
+/* end of header */
+        /* attempt to make 4 even divs for the body of the page, in a column */
+        .body {
+            display: flex;
+            flex-direction: column;
+        }
 
-.body {
-    display: flex;
-    flex-direction: column;
-}
+        .header-content {
+            background-color: #1f2937;
+            display: flex;
+            flex: 1;
+        }
 
-.header-content {
-    background-color: #1f2937;
-    display: flex;
-}
+        .upper-middle {
+            display: flex;
+            flex: 1;
+        }
 
-.content-text {
+        .middle {
+            display: flex;
+            flex: 1;
+        }
+
+        .lower-middle {
+            display: flex;
+            flex: 1;
+        }
+
+/* .content-text {
     display: flex;
     flex-direction: column;
     flex: 1;
