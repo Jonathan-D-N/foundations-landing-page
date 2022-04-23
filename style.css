@@ -1,14 +1,8 @@
-* {
-    border: 2px solid red;
+ {
+    border: 2px solid;
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-.body {
-    
-}
-
-=======
 body {
     margin: 0;
     min-height: 100vh;
@@ -17,24 +11,16 @@ body {
 
 .top {
     background-color: #1f2937;
-    padding: 16px 250px
+    padding: 16px 400px
 
 
 /* header */
 }
->>>>>>> temp-branch
 .header {
     background-color: #1f2937;
-    max-width: 70%;
     display: flex;
     justify-content: center;
-
-}
-
-.header-container {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #1f2937;
+    padding-bottom: 48px;
 }
 
 .logo {
@@ -55,114 +41,76 @@ body {
 }
 
     /* top blue part */
+
     .top-container {
         display: flex;
+        justify-content: space-evenly;
+        background-color: #1f2937;
+        padding-bottom: 48px;
     }
 
     .top-text {
-        max-width: ;
         display: flex;
         flex-direction: column;
         align-content: right;
-    }
-
-    .big-text {
-        font-size: 48px;
-        font-weight: 900;
-        color: #f9faf8;
-        margin: 0;
-        display: flex;
         flex: 1;
     }
 
-    .small-text {
-        font-size: 18px;
-        color: #e5e7eb;
-        display: flex;
-        flex: 1;
-    }
+        .big-text {
+            font-size: 48px;
+            font-weight: 900;
+            color: #f9faf8;
+            margin: 0;
+            display: flex;
+            flex: 1;
+        }
+
+        .small-text {
+            font-size: 18px;
+            color: #e5e7eb;
+            display: flex;
+            flex: 1;
+        }
 
     .button-1 {
+        background-color: #3882f6;
+        border: none;
+        color: #e5e7eb;
+        padding: 10px;
+        text-align: center;
+        display: inline-block;
         max-width: 100px;
-        justify-content: center;
-        display: flex;
-        flex-shrink: 1;
+        border-radius: 8px;
+        font-weight: 700;
+        transition-duration: 0.4s;
     }
 
-    .header-image  {
+    .button-1:hover {
+        background-color: #274d81;
+        box-shadow: 0 0 5px 1px;
+    }
+
+    .top-image  {
         display: flex;
-        justify-content: right;
         flex: 1;
-
+        justify-content: right;
+        max-width: 500px;
     }
 
+    .img-1 {
+        box-shadow: 0 0 5px 2px;
+    }
 
-
+    .filler {
+        display: flex;
+        flex: 1;
+    }
 /* universal */
-.img-1 {
-    max-width: 500px;
-    max-height: auto;
-}
 
 .ul-header {
     list-style: none;
     display: flex;
-<<<<<<< HEAD
-    
-}
-/* end of header */
-        /* attempt to make 4 even divs for the body of the page, in a column */
-        .body {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .header-content {
-            background-color: #1f2937;
-            display: flex;
-            flex: 1;
-        }
-
-        .upper-middle {
-            display: flex;
-            flex: 1;
-        }
-
-        .middle {
-            display: flex;
-            flex: 1;
-        }
-
-        .lower-middle {
-            display: flex;
-            flex: 1;
-        }
-
-.content-text {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.big-text {
-    font-size: 48px;
-    color: #f9faf8;
-    flex: 1;
-}
-
-.small-text {
-    flex: 1;
-}
-
-.header-image {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    background-color: #6d747d;
-=======
-    gap: 16px;
->>>>>>> temp-branch
+    gap: 36px;
 }
 
 /* universal */
@@ -176,11 +124,7 @@ p {
 }
 
 button {
-    max-width: 80px;
-    border-radius: 5px;
-    background-color: #3882f6;
-    color: #e5e7eb;
-    font-weight: 700;
+
 }
 
 img {
