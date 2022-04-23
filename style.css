@@ -1,5 +1,4 @@
- {
-    border: 2px solid;
+* {
     box-sizing: border-box;
 }
 
@@ -11,7 +10,8 @@ body {
 
 .top {
     background-color: #1f2937;
-    padding: 16px 400px
+    padding: 16px 400px;
+    min-height: 400px;
 
 
 /* header */
@@ -105,6 +105,96 @@ body {
         display: flex;
         flex: 1;
     }
+
+        /* level 2 */
+
+        .level-2 {
+            min-height: 400px;
+            padding: 0 400px;
+        }
+
+        .level-2-header {
+            margin-top: 36px;
+            font-size: 36px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .level-2-container {
+            padding: 48px;
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+        }
+
+        .level-2-boxes {
+            display: flex;
+            justify-content: center;
+            gap: 36px;
+
+        }
+
+        .box {
+            border: 3px solid;
+            border-color: #5895f7;
+            border-radius: 8px;
+            min-width: 100px;
+            min-height: 100px;
+        }
+
+        .level-2-text {
+            display: flex;
+            justify-content: center;
+            gap: 36px;
+            margin-top: 16px;
+        }
+
+        .box-text {
+            min-width: 106px;
+            max-width: 106px;
+            text-align: center;
+        }
+
+/* level 3 */
+
+            .level-3 {
+                min-height: 400px;
+                padding: 0px 400px;
+                background-color: #e5e7eb;
+                display: flex;
+                justify-content: center;
+            }
+
+            .level-3-container {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+            }
+
+            .level-3-text {
+                display: flex;
+                max-width: 600px;
+                font-size: 24px;
+            }
+
+            .level-3-subtext {
+                font-weight: 700;
+                display: flex;
+                justify-content: flex-end;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
 /* universal */
 
 .ul-header {
@@ -121,10 +211,6 @@ a {
 
 p {
     margin: 0;
-}
-
-button {
-
 }
 
 img {
