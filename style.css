@@ -72,23 +72,23 @@ body {
             flex: 1;
         }
 
-    .button-1 {
-        background-color: #3882f6;
-        border: none;
-        color: #e5e7eb;
-        padding: 10px;
-        text-align: center;
-        display: inline-block;
-        max-width: 100px;
-        border-radius: 8px;
-        font-weight: 700;
-        transition-duration: 0.4s;
-    }
-
-    .button-1:hover {
-        background-color: #274d81;
-        box-shadow: 0 0 5px 1px;
-    }
+        .button-1 {
+            background-color: #3882f6;
+            border: none;
+            color: #e5e7eb;
+            padding: 10px;
+            text-align: center;
+            display: inline-block;
+            max-width: 100px;
+            border-radius: 8px;
+            font-weight: 700;
+            transition-duration: 0.4s;
+        }
+    
+        .button-1:hover {
+            background-color: #274d81;
+            box-shadow: 0 0 5px 1px;
+        }
 
     .top-image  {
         display: flex;
@@ -183,15 +183,62 @@ body {
                 display: flex;
                 justify-content: flex-end;
             }
+/* level 4 */
+
+                .level-4 {
+                    padding: 100px 400px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .level-4-container {
+                    display: flex;
+                    background-color: #3882f6;
+                    border-radius: 8px;
+                    padding: 12px 48px;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .level-4-text {
+                    color: #e5e7eb;
+                    flex: 1;
+                }
+
+                .level-4-spacer {
+                    flex: 0.3;
+                }
 
 
+                .button-2 {
+                    background-color: #3882f6;
+                    border: none;
+                    color: #e5e7eb;
+                    padding: 10px;
+                    text-align: center;
+                    display: inline-block;
+                    border: 1px solid white;
+                    max-width: 100px;
+                    border-radius: 8px;
+                    font-weight: 700;
+                    transition-duration: 0.4s;
+                }
+            
+                .button-2:hover {
+                    background-color: #274d81;
+                    box-shadow: 0 0 5px 1px;
+                }
+/* footer */
 
-
-
-
-
-
-
+                .footer {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #1f2937;
+                    padding: 50px 0;
+                    color: white;
+                }
 
 
 
