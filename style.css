@@ -39,6 +39,10 @@ body {
     padding-bottom: 72px;
 }
 
+.hero-text {
+    max-width: 400px;
+   }
+
 .hero-text-big {
     font-size: 48px;
     margin: 0;
@@ -69,20 +73,109 @@ body {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.hero-text {
- max-width: 400px;
-}
+/* information section */
 
 .information-container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 279.81px;
 }
+
+.information-box {
+    display: flex;
+    justify-content: center;
+    gap: 109px;
+}
+
+.box {
+    border-radius: 8px;
+    border: solid #3882f6;
+}
+
+.information-text-container {
+    display: flex;
+    justify-content: center;
+    gap: 109px;
+}
+
+.information-text {
+    max-width: 106px;
+    margin: 0;
+    text-align: center;
+}
+
+/* quote section */
 
 .quote-container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 279.81px;
+    background-color: #e5e7eb;
 }
+
+.quote-text {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.span {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* sign-up section */
 
 .sign-up-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200.81px;
+}
+
+.sign-up-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3b82f6;
+    border-radius: 8px;
+    min-width: 800px;
+}
+
+.sign-up-big-text {
+    color: #f9faf8;
+}
+
+.sign-up-small-text {
+    color: #e5e7eb;
+}
+
+.button2 {
+    background-color: #1a4fa3;
+    border-radius: 2px;
+    color: #e5e7eb;
+    font-size: 16px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.button2:hover {
+    background-color: #103164;
+    color: #e5e7eb8a;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
 }
 
 /* universal */
